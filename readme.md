@@ -4,4 +4,4 @@
 2. composer
 3. editors
  * Sublime Text
- * PHPStorm
+ * [PHPStorm](editors/phpstorm.md)
