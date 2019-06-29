@@ -130,21 +130,28 @@ Set, unset and navigate to bookmarks.
 > Escape - Revert to One Cursor
 > Alt+J - Select Next Occurrence
 
-## 03 Inspections 
+## 03 Inspections - Highlights
 
-### 
-> 
+In-editor highlighting of code issues.
+
+NOTE: Inspections are the way that PhpStorm tells you, the developer, what's going on with your code.
+
+Почему то не сработал (Ctrl+Q Quick documentation on switch, if, for...)
+
+А также незнакомые слова.
+
+### Quickfixes
+> Alt+Enter - Highlights provide a Quick Fix action to help remove the warning
 
 
-### 
-> 
+### Inspections - Navigate to Next Highlighted Error
+> F2 / Shift+F2 - Navigate back and forth between code errors.
 
-### 
-> 
+### Inspections - Gutter (канавки) and Lens (лупа)
+> Right gutter displays error information. Use Lens mode for preview
 
-
-### 
-> 
+### Configure PHP Mess Detector or PHP Code Sniffer
+> !!! не получилось настроить !!!
 
 ### 
 > 
