@@ -7,6 +7,13 @@
 (как разбить на части, чтобы в голове не было каши)
 
 ## Теория
+
+Git Book - полное руководство
+https://git-scm.com/book/ru/v2
+
+Интерактивное руководство по веткам
+https://learngitbranching.js.org/
+
 CmDer консоль
 https://htmlacademy.ru/blog/83-installing-the-console-on-windows
 
