@@ -50,3 +50,8 @@ View: Toggle Status Bar - вкл/выкл статус бар
 
 ## Настройки - Preferences / Settings
 Слева по умолчанию, справа - мои настройки.
+
+## Sublime Emmet
+https://emmet.io/
+https://docs.emmet.io/cheat-sheet/
+sublime-emmet.html

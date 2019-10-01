@@ -3,7 +3,7 @@
 1. [git](git/readme.md)
 2. [composer](composer/readme.md)
 3. editors
- * Sublime Text
+ * [Sublime Text](editors/sublime.md)
  * [PHPStorm](editors/phpstorm.md)
  * [vscode](editors/vscode.md)
  * [ESLint](editors/eslint.md)
