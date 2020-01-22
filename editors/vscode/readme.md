@@ -1,8 +1,6 @@
 # VS Code
 
-Дополнительная литература:
-1. https://medium.com/p/7f1a26806522
-2. https://medium.com/p/8e4939bb1492
+
 
 из консоли запускаем:
 ```
@@ -10,20 +8,97 @@ code .
 code <file>
 ```
 
+## Материалы
+
+- https://code.visualstudio.com/docs/getstarted/introvideos
+- https://scotch.io/courses/make-visual-studio-code-your-editor
+- https://medium.com/p/7f1a26806522
+- https://medium.com/p/8e4939bb1492
+
+## Установка и удаление
+
+How to completle remove settings?
+- settings `%UserFolder%\AppData\Roaming\Code (%AppData%\Code)`
+- extensions `%UserFolder%\.vscode`
+
+After installation:
+- disable telemetry and crash reporting 
+https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting
+
+## VSCode cata:
+- Help / Interactive Playground
+
+## Первоначальные настройки
+
+- F1 -> Toggle Status Bar
+- F1 -> Toggle MiniMap
+- Open Editors Visible: 9 -> 0 (показывать редактируемые файлы)
+
+### 1. Тема
+
+*Компоненты надо изучать!*
+
+- Nord Theme
+- Material Theme
+- Vscode-icons
+
+
+## 2. Fonts
+
+https://github.com/tonsky/FiraCode
+https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
+
+https://github.com/IBM/plex
+
+- Ctrl -/+ - шрифт меньше/больше
+
+## 3. Работа с файлам
+
+
+- patbenatar.advanced-new-file
+Ctrl + Alt + N - выбор папки, создание файла
+
+- sleistner.vscode-fileutils
+
+F1 ->  file dublicate, rename, delete, copy path name etc + new file relative current dir
+
+## 4. open in browser
+
+techer.open-in-browser
+
+
 ## Комбинации клавиш
 
+**Rule - look actions in command palete first AND memorizy usefull shortcuts**
+
+- <kbd>F1</kbd>, <kbd>Ctrl + Shift + P</kbd> - command palete
+
+- <kbd>F11</kbd> - весь экран
+- <kbd>Gtrl + ,</kbd> - open settings
 - <kbd>Ctrl + K + S</kbd> - интерактивная подсказка + можно менять комбинации клавиш
 - <kbd>Ctrl + K + R</kbd> - подсказка по клавишам PDF
 - <kbd>F1</kbd> / <kbd>Ctrl + Shift + P</kbd> - Command palette
 - <kbd>Ctrl + P</kbd> (удобное открытие в другой вкладке)
 - <kbd>Ctrl + W</kbd> - закрываем окно
 - <kbd>Ctrl + R</kbd> - переключаемся между проектами
-- <kbd>Gtrl + ,</kbd> - настройки
+
+**Другие**
+
+- Ctrl + Shift + O (go to symbol) - позволяет видеть структуру файла - методов
+
+## JS function
+- F12 defenition 
+- Alt + F12 defenition 
+
+## SELECTION
+- Ctrl+D
+- Ctrl+Shift+L
 
 ## Bars
 
-Toggle Activity Bar
+F1 -> Toggle Activity Bar
 Ctrl + B - on/off
+Ctrl + 0 - focus into Side bar
 Ctrl + Shift + E - explorer
 Ctrl + Shift + F - find
 Ctrl + Shift + G - source control
@@ -34,30 +109,7 @@ Ctrl + Shift + X - eXtension
 
 Ctrl + Tab
 Ctrl + PgUp, PgDn
-
-## Оформление
-
-- (ставим) Slime Theme -
-  Отключаем статус бар - минимум шума на экране
-  Open Editors Visible: 9 -> 0
-  Activity Bar
-  MiniMap - выглядит круто, но зачем?
-
-## Fonts
-
-https://github.com/IBM/plex
-
-- (ставим) Sublime Text Keymap - чтобы не переучиваться на новые клавиши
-
-## Работа с файлам
-
-- в дереве файлов
-- Ctrl + N
-- patbenatar.advanced-new-file, Ctrl + Alt + N - выбор папки, создание файла
-- stefen leistner file utils, Ctrl + Shift + P - file dublicate, rename, delete, copy path name etc + new file relative current dir
-- ben mewburn intelephense
-- Ctrl + Shift + O (go to symbol) - позволяет видеть структуру файла - методов
-- Ctrl -/+ - шрифт меньше/больше
+CTRL + \ - split editor right (текущий файл на 2 экрана)
 
 ## vim
 
@@ -75,7 +127,7 @@ Ctrl + Shift + P -> snippets configure -> PHP
 
 ## terminal
 
-Ctrl + `- открыть терминал
+Ctrl + \`- открыть терминал
 Gtrl + J - скрыть/открыть окно
 Ctrl + Shift + C - открыть внешний терминал
 Выделенный текст -> Ctrl + Shift + P -> "run selected text"
@@ -147,6 +199,8 @@ Ct + Sh + D -> PHP
 - Ctrl + Shift + L - выделяет все сразу (в сублайме + G, можно поменять на ...)
 
 ## 15 PHP Full Workflow
+
+- ben mewburn intelephense
 
 Settings -> "open files in new window" -> on
 
