@@ -71,13 +71,12 @@ techer.open-in-browser
 
 **Rule - look actions in command palete first AND memorizy usefull shortcuts**
 
-- <kbd>F1</kbd>, <kbd>Ctrl + Shift + P</kbd> - command palete
+- <kbd>F1</kbd> / <kbd>Ctrl + Shift + P</kbd> - Command palette
 
 - <kbd>F11</kbd> - весь экран
 - <kbd>Gtrl + ,</kbd> - open settings
 - <kbd>Ctrl + K + S</kbd> - интерактивная подсказка + можно менять комбинации клавиш
 - <kbd>Ctrl + K + R</kbd> - подсказка по клавишам PDF
-- <kbd>F1</kbd> / <kbd>Ctrl + Shift + P</kbd> - Command palette
 - <kbd>Ctrl + P</kbd> (удобное открытие в другой вкладке)
 - <kbd>Ctrl + W</kbd> - закрываем окно
 - <kbd>Ctrl + R</kbd> - переключаемся между проектами
@@ -111,6 +110,22 @@ Ctrl + Tab
 Ctrl + PgUp, PgDn
 CTRL + \ - split editor right (текущий файл на 2 экрана)
 
+# Working with text
+
+- Дублирование строк
+- Перемещение строк
+
+Ctrl + / - Line comment
+Alt + Shift + A - Block comment
+
+## Multi Cursors
+
+- Ctrl + Alt + Up/Down - Add cursor above/below
+- Alt + Click
+- Ctrl + D - выделяем по одному
+- Ctrl + Alt D - выделяем по одному (вверх)
+- Ctrl + Shift + L - выделяет все сразу (в сублайме + G, можно поменять на ...)
+
 ## vim
 
 vscodevim.vim
@@ -130,7 +145,7 @@ Ctrl + Shift + P -> snippets configure -> PHP
 Ctrl + \`- открыть терминал
 Gtrl + J - скрыть/открыть окно
 Ctrl + Shift + C - открыть внешний терминал
-Выделенный текст -> Ctrl + Shift + P -> "run selected text"
+Выделенный текст -> F1 -> "run selected text"
 
 ## Git ready
 
@@ -191,12 +206,6 @@ https://php.net/supported-versions.php
 - (устанавливаем) PHP Debug plugin felix baker
 
 Ct + Sh + D -> PHP
-
-## Multi Cursors
-
-- Alt + Click
-- Ctrl + D - выделяем по одному
-- Ctrl + Shift + L - выделяет все сразу (в сублайме + G, можно поменять на ...)
 
 ## 15 PHP Full Workflow
 
