@@ -4,6 +4,7 @@
 - https://tyapk.ru/blog/post/php-vscode-plugins
 - https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 - https://guides.hexlet.io/vscode-for-php-setup/
+- https://tighten.co/blog/configure-vscode-to-debug-phpunit-tests-with-xdebug
 
 ## X Debug
 
