@@ -1,32 +1,14 @@
 # VS Code
 
+- [установка и удаление](installation.md)
+- [Запуск](start.md)
+- [Документация и обучение](userguide.md)
+- [Настройка](settings.md)
+- [PHP developer](php.md)
 
-
-из консоли запускаем:
-```
-code .
-code <file>
-```
-
-## Материалы
-
-- https://code.visualstudio.com/docs/getstarted/introvideos
-- https://scotch.io/courses/make-visual-studio-code-your-editor
-- https://medium.com/p/7f1a26806522
-- https://medium.com/p/8e4939bb1492
-
-## Установка и удаление
-
-How to completle remove settings?
-- settings `%UserFolder%\AppData\Roaming\Code (%AppData%\Code)`
-- extensions `%UserFolder%\.vscode`
-
-After installation:
-- disable telemetry and crash reporting 
-https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting
-
-## VSCode cata:
-- Help / Interactive Playground
+## Extensions
+- https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+- https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 
 ## Первоначальные настройки
 
@@ -34,67 +16,32 @@ https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-repo
 - F1 -> Toggle MiniMap
 - Open Editors Visible: 9 -> 0 (показывать редактируемые файлы)
 
-### 1. Тема
-
-*Компоненты надо изучать!*
-
-- Nord Theme
-- Material Theme
-- Vscode-icons
-
-
-## 2. Fonts
-
-https://github.com/tonsky/FiraCode
-https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
-
-https://github.com/IBM/plex
-
-- Ctrl -/+ - шрифт меньше/больше
-
-## 3. Работа с файлам
-
-
-- patbenatar.advanced-new-file
-Ctrl + Alt + N - выбор папки, создание файла
-
-- sleistner.vscode-fileutils
-
-F1 ->  file dublicate, rename, delete, copy path name etc + new file relative current dir
-
-## 4. open in browser
-
-techer.open-in-browser
-
-
 ## Комбинации клавиш
 
-**Rule - look actions in command palete first AND memorizy usefull shortcuts**
+>Rule - look actions in command palete first AND memorizy usefull shortcuts
 
-- <kbd>F1</kbd> / <kbd>Ctrl + Shift + P</kbd> - Command palette
-
+- <kbd>F1</kbd> or <kbd>Ctrl + Shift + P</kbd> - Command palette
 - <kbd>F11</kbd> - весь экран
 - <kbd>Gtrl + ,</kbd> - open settings
 - <kbd>Ctrl + K + S</kbd> - интерактивная подсказка + можно менять комбинации клавиш
 - <kbd>Ctrl + K + R</kbd> - подсказка по клавишам PDF
-- <kbd>Ctrl + P</kbd> (удобное открытие в другой вкладке)
+- <kbd>Ctrl + P</kbd> - открытие файлов
+- <kbd>Ctrl + \</kbd> - удобное открытие в другой вкладке
 - <kbd>Ctrl + W</kbd> - закрываем окно
 - <kbd>Ctrl + R</kbd> - переключаемся между проектами
 
-**Другие**
-
+## Другие
 - Ctrl + Shift + O (go to symbol) - позволяет видеть структуру файла - методов
 
 ## JS function
-- F12 defenition 
-- Alt + F12 defenition 
+- F12 defenition
+- Alt + F12 defenition
 
-## SELECTION
+## Selection
 - Ctrl+D
 - Ctrl+Shift+L
 
 ## Bars
-
 F1 -> Toggle Activity Bar
 Ctrl + B - on/off
 Ctrl + 0 - focus into Side bar
@@ -142,7 +89,7 @@ Ctrl + Shift + P -> snippets configure -> PHP
 
 ## terminal
 
-Ctrl + \`- открыть терминал
+Ctrl + `- открыть терминал
 Gtrl + J - скрыть/открыть окно
 Ctrl + Shift + C - открыть внешний терминал
 Выделенный текст -> F1 -> "run selected text"
@@ -210,6 +157,7 @@ Ct + Sh + D -> PHP
 ## 15 PHP Full Workflow
 
 - ben mewburn intelephense
+- bmewburn.vscode-intelephense-client
 
 Settings -> "open files in new window" -> on
 
