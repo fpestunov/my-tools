@@ -5,6 +5,7 @@
 - [Документация и обучение](userguide.md)
 - [Настройка](settings.md)
 - [PHP developer](php.md)
+- [Databases](db.md)
 
 ## Extensions
 - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
