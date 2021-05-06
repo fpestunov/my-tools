@@ -10,6 +10,11 @@
 ## Extensions
 - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 - https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+- https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag - быстрое переименование тэгов
+- https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete - автодополнение путей
+- https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer - расскраска скобок
+- https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+- https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks
 
 ## Первоначальные настройки
 
