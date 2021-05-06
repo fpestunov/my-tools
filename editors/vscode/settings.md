@@ -23,3 +23,10 @@ Ctrl + Alt + N - выбор папки, создание файла
 
 - File Utils - **sleistner.vscode-fileutils**
 F1 ->  file dublicate, rename, delete, copy path name etc + new file relative current dir
+
+### Прочее
+
+В настройках:
+- `cursor`
+- `exclude` - исключаем из вида ненужные файлы
+- `title` - настраиваем заголовок
