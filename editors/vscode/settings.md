@@ -9,9 +9,10 @@
 
 ### 2. Шрифт
 
-https://github.com/tonsky/FiraCode
-https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
-https://github.com/IBM/plex
+- https://github.com/tonsky/FiraCode
+- https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
+- https://github.com/microsoft/cascadia-code
+- https://github.com/IBM/plex
 
 - <kbd>Ctrl</kbd> + <kbd>-/+</kbd> - шрифт меньше/больше
 
