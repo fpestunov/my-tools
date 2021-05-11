@@ -15,6 +15,8 @@
 - https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer - расскраска скобок
 - https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
 - https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks
+- https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense - автодополнение путей
+- https://marketplace.visualstudio.com/items?itemName=kiteco.kite - надо протестить
 
 ## Первоначальные настройки
 
